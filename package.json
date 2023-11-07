@@ -12,6 +12,8 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "fs": "^0.0.1-security",
-    "moralis": "^2.23.1"
+    "ipfs-http-client": "^60.0.1",
+    "moralis": "^2.23.1",
+    "web3": "^4.2.1"
   }
 }
