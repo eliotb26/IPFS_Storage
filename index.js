@@ -9,7 +9,7 @@ const fileUploads = [
     }
   ]
 
-  async function uploadToIpfs(){
+async function uploadToIpfs(fileUploads){
 
     await Moralis.start({
         apiKey: process.env.MORALIS_KEY
@@ -23,5 +23,5 @@ const fileUploads = [
 
 }
 
-uploadToIpfs();
+uploadToIpfs(fileUploads);
 
